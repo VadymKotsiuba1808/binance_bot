@@ -1,0 +1,2 @@
+class BroBinanceBot:
+    pass
