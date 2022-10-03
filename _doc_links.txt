@@ -1,0 +1,1 @@
+https://github.com/binance/binance-futures-connector-python/blob/d30576a6d8e6edb706c8b013eb11167b58e9c33a/examples/cm_futures/trade/new_order.py
