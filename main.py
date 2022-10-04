@@ -1,17 +1,7 @@
 from tkinter import *
 from console import ConsoleText
 
-import logging
-from binance.cm_futures import CMFutures as Client
-from binance.lib.utils import config_logging
-from binance.error import ClientError
-
 from config import CONFIG
-
-config_logging(logging, logging.DEBUG)
-
-binance_client = Client(CONFIG.key, CONFIG.secret, base_url="https://fapi.binance.com")
-binance_client.change_leverage(CONFIG.ticker, CONFIG.leverage)
 
 def long():
     console.println("LONG")
